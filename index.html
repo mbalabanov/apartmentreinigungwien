@@ -1,834 +1,619 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Apartmentreinigung Wien</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <style>
-      .carousel-caption {
-        background: rgba(20, 40, 20, 0.5);
-        border-radius: 1em;
-        padding: 1em;
-      }
-    </style>
-    <script
-      language="JavaScript"
-      src="js/contact/gen_validatorv31.js"
-      type="text/javascript"
-    ></script>
-  </head>
-  <body>
-    <header class="d-flex flex-wrap justify-content-center py-3 border-bottom">
-      <a
-        href="https://profireiniger.at"
-        target="_blank"
-        class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"
-      >
-        <img
-          class="bi mx-4"
-          src="images/profireiniger-kurzlogo.svg"
-          width="40"
-          height="32"
-        />
-        <span class="fs-4">Apartmentreinigung Wien</span>
-      </a>
 
-      <ul class="nav nav-pills">
-        <li class="nav-item">
-          <a href="#dienstleistungen" class="nav-link">Apartmentreinigung</a>
-        </li>
-        <li class="nav-item">
-          <a href="#mietwaesche" class="nav-link">Mietwäsche</a>
-        </li>
-        <li class="nav-item">
-          <a href="#kontakt" class="nav-link">Kontakt</a>
-        </li>
-      </ul>
-    </header>
-    <div
-      id="ProfireinigerCarousel"
-      class="carousel slide d-sm-none d-md-block"
-      data-bs-ride="carousel"
-    >
-      <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#ProfireinigerCarousel"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#ProfireinigerCarousel"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apartment-Reinigung Wien: airBnB, Kurzzeitmiete, Wohnung Reinigung Wien</title>
+  <meta name="description"
+    content="Apartment-Reinigung in Wien: Wir reinigen Ihr Apartment, airBnB-Apartment, Kurzzeitmiet-Apartment oder Booking-Wohnung in Wien">
+  <meta name="keywords"
+    content="Apartment-Reinigung in Wien, Apartmentreinigung Wien, Apartment Reinigung Wien, airBnB-Apartmentreinigung Wien, Kurzzeitmiet-Apartment Reinigung, Reinigung Booking-Wohnung Wien">
+  <meta name="page-topic" content="Reinigungsdienst Wien">
+  <meta name="robots" content="index, follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="5000">
-          <a href="#dienstleistungen"
-            ><img
-              src="images/hausbetreuung.jpg"
-              class="d-block w-100"
-              alt="Apartmentreinigung"
-          /></a>
-          <div class="carousel-caption d-none d-md-block">
-            <img
-              class="img-fluid"
-              src="images/apartmentreinigung-wien.png"
-              alt="Profireiniger Estera GmbH"
-            />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <style>
+    .carousel-caption {
+      background: rgba(20, 40, 20, 0.5);
+      border-radius: 1em;
+      padding: 1em;
+    }
+  </style>
+  <script language="JavaScript" src="js/contact/gen_validatorv31.js" type="text/javascript"></script>
+</head>
 
-            <h1 class="display-6 text-light">
-              Wir reinigen Ihre airBnB-, Kurz&shy;zeit&shy;miete- &
-              Booking-Wohnung
-            </h1>
+<body>
+  <header class="d-flex flex-wrap justify-content-center py-3 border-bottom">
+    <a href="https://profireiniger.at" target="_blank"
+      class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+      <img class="bi mx-4" src="images/profireiniger-kurzlogo.svg" width="40" height="32" />
+      <span class="fs-4">Apartmentreinigung Wien</span>
+    </a>
 
-            <p>
-              Wir von <strong>Profireiniger Estera GmbH</strong> sind
-              spezialisiert auf die Reinigung von Kurzzeitmietapartments. Wir
-              richten uns ganz nach Ihren Bedürfnissen - schnell, zuverlässig,
-              flexibel.
-            </p>
-            <p>
-              <button type="button" class="w-100 btn btn-lg btn-primary">
-                Jetzt Angebot einholen:<br />
-                Tel.:
-                <a href="tel:+436766727472" class="link-light"
-                  >+43 676 672 74 72</a
-                >&nbsp;&nbsp; Email:
-                <a class="link-light" href="mailto:office@profireiniger.at"
-                  >office@profireiniger.at</a
-                >
-              </button>
-            </p>
-            <p class="text-center">
-              <a href="#kontakt" class="w-100 btn btn-lg btn-primary"
-                >Zum Kontaktformular</a
-              >
-            </p>
-          </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="5000">
-          <a href="#mietwaesche"
-            ><img
-              src="images/mietbettwaesche.jpg"
-              class="d-block w-100"
-              alt="Bettwäsche zum mieten"
-          /></a>
-          <div class="carousel-caption d-none d-md-block">
-            <img
-              class="img-fluid"
-              src="images/title-mietwaesche-fuer-ihr-apartment.png"
-              alt="Mietwäsche von Profireiniger Estera GmbH für Ihre Apartment"
-            />
-
-            <h1 class="display-6 text-light">
-              Wir stellen für Ihr Apartment frische Bettwäsche und Handtücher
-              bereit
-            </h1>
-
-            <p>
-              Ganz gleich, ob Hotelwäsche, Leihwäsche oder Mietwäsche, wir
-              decken Ihren gesamten Bedarf an Mietwäsche, und Sie sparen
-              gleichzeitig Zeit und Geld.
-            </p>
-            <p>
-              <button type="button" class="w-100 btn btn-lg btn-primary">
-                Jetzt Angebot einholen:<br />
-                Tel.:
-                <a href="tel:+436766727472" class="link-light"
-                  >+43 676 672 74 72</a
-                >&nbsp;&nbsp; Email:
-                <a class="link-light" href="mailto:office@profireiniger.at"
-                  >office@profireiniger.at</a
-                >
-              </button>
-            </p>
-            <p class="text-center">
-              <a href="#kontakt" class="w-100 btn btn-lg btn-primary"
-                >Zum Kontaktformular</a
-              >
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#ProfireinigerCarousel"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#ProfireinigerCarousel"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a href="#dienstleistungen" class="nav-link">Apartmentreinigung</a>
+      </li>
+      <li class="nav-item">
+        <a href="#mietwaesche" class="nav-link">Mietwäsche</a>
+      </li>
+      <li class="nav-item">
+        <a href="#kontakt" class="nav-link">Kontakt</a>
+      </li>
+    </ul>
+  </header>
+  <div id="ProfireinigerCarousel" class="carousel slide d-sm-none d-md-block" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#ProfireinigerCarousel" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#ProfireinigerCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
     </div>
 
-    <div class="container px-4 py-2 text-center d-sm-block d-md-none">
-      <img
-        class="img-fluid"
-        src="images/apartmentreinigung-wien.png"
-        alt="Profireiniger Estera GmbH"
-      />
-      <h1 class="display-5 text-primary">
-        Wir reinigen Ihre airBnB-, Kurz&shy;zeit&shy;miete- & Booking-Wohnung
-      </h1>
-      <div class="col-lg-6 mx-auto">
-        <p class="lead mb-4">
-          Wir von <strong>Profireiniger Estera GmbH</strong> sind spezialisiert
-          auf die Reinigung Kurzzeitmietapartments. Wir richten uns ganz nach
-          Ihren Bedürfnissen.
-        </p>
-        <p>Unsere Erstberatung ist kostenlos.</p>
-        <img
-          class="d-block mx-auto mb-4"
-          src="images/profireiniger-full-logo.svg"
-          alt="Profireiniger Estera GmbH"
-          width="300px"
-        />
-        <p>
-          <button type="button" class="w-100 btn btn-lg btn-primary">
-            Jetzt Angebot einholen:<br />Tel.:
-            <a href="tel:+436766727472" class="link-light">+43 676 672 74 72</a
-            ><br />
-            Email:
-            <a class="link-light" href="mailto:office@profireiniger.at"
-              >office@profireiniger.at</a
-            >
-          </button>
-        </p>
-        <p class="text-center">
-          <a href="#kontakt" class="w-100 btn btn-lg btn-primary"
-            >Zum Kontaktformular</a
-          >
-        </p>
-      </div>
-    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="5000">
+        <a href="#dienstleistungen"><img src="images/hausbetreuung.jpg" class="d-block w-100"
+            alt="Apartmentreinigung" /></a>
+        <div class="carousel-caption d-none d-md-block">
+          <img class="img-fluid" src="images/apartmentreinigung-wien.png" alt="Profireiniger Estera GmbH" />
 
-    <div class="container mt-5">
-      <div class="row">
-        <div class="col-md-6">
-          <img
-            src="images/loft-wohnung-sauber.jpg"
-            alt="Für eine saubere Mietwohnung: Ihr Partner für Apartmentreinigung in Wien"
-            class="img-fluid rounded"
-          />
-        </div>
-        <div class="col-md-6">
-          <img
-            src="images/title-professionelle-reinigung.png"
-            alt="Ihre professionelle Reinigung"
-            class="img-fluid mt-2"
-          />
+          <h1 class="display-6 text-light">
+            Wir reinigen Ihre airBnB-, Kurz&shy;zeit&shy;miete- &
+            Booking-Wohnung
+          </h1>
+
           <p>
-            Nachdem manche Online-Vermietdienste eine 24-Stunden-Leerstelle
-            zwischen den Buchungen verlangen, wird für Kunden sichtbar, dass
-            eine saubere Immobilie ein wichtiger Faktor ist.
+            Wir von <strong>Profireiniger Estera GmbH</strong> sind
+            spezialisiert auf die Reinigung von Kurzzeitmietapartments. Wir
+            richten uns ganz nach Ihren Bedürfnissen - schnell, zuverlässig,
+            flexibel.
           </p>
           <p>
-            Stellen Sie sicher, dass Sie Ihr Bestes geben, um diese
-            5-Sterne-Bewertungen mit einem zeitnahen professionellen
-            Reinigungsservice in Wien zu genießen. Entscheiden Sie sich für das
-            zuverlässige Team von <strong>Profireiniger Estera GmbH</strong>,
-            das dafür sorgt, dass alle Oberflächen aufgeräumt und sauber sind,
-            um eine erfolgreiche Vermietung zu gewährleisten.
-          </p>
-          <p>
-            Buchen Sie unsere Apartment-Reinigung in Wien und genießen Sie tolle
-            Bewertungen und ein profitables Vermietungsgeschäft. Unsere
-            Erstberatung ist kostenlos.
+            <button type="button" class="w-100 btn btn-lg btn-primary">
+              Jetzt Angebot einholen:<br />
+              Tel.:
+              <a href="tel:+436766727472" class="link-light">+43 676 672 74 72</a>&nbsp;&nbsp; Email:
+              <a class="link-light" href="mailto:office@profireiniger.at">office@profireiniger.at</a>
+            </button>
           </p>
           <p class="text-center">
-            <a href="#kontakt" class="w-100 btn btn-lg btn-primary"
-              >Zum Kontaktformular</a
-            >
+            <a href="#kontakt" class="w-100 btn btn-lg btn-primary">Zum Kontaktformular</a>
           </p>
         </div>
       </div>
-      <div class="row mt-5">
-        <div class="col-md-6">
-          <img
-            src="images/title-loesung-fuer-sie.png"
-            alt="Unsere Lösung für Sie"
-            class="img-fluid"
-          />
+      <div class="carousel-item" data-bs-interval="5000">
+        <a href="#mietwaesche"><img src="images/mietbettwaesche.jpg" class="d-block w-100"
+            alt="Bettwäsche zum mieten" /></a>
+        <div class="carousel-caption d-none d-md-block">
+          <img class="img-fluid" src="images/title-mietwaesche-fuer-ihr-apartment.png"
+            alt="Mietwäsche von Profireiniger Estera GmbH für Ihre Apartment" />
+
+          <h1 class="display-6 text-light">
+            Wir stellen für Ihr Apartment frische Bettwäsche und Handtücher
+            bereit
+          </h1>
+
           <p>
-            Bei weitem das Schwierigste daran, ein Gastgeber zu sein, ist es,
-            für Sauberkeit zu sorgen. Wir wissen, dass viele Menschen Airbnb,
-            Booking und Kurzzeitmiete nur ungern ausprobieren, weil sie denken,
-            dass sie in einem Zimmer einer anderen Person übernachten werden,
-            das möglicherweise nicht so sauber ist wie ein Hotelzimmer.
-          </p>
-          <img
-            src="images/title-fuenf-sterne-bewertung.png"
-            alt="Für Ihre fünf-Sterne Bewertung"
-            class="img-fluid"
-          />
-          <p>
-            Wenn Sie Ihren Gästen ein Erlebnis bieten möchten, das sich von
-            einem Hotel unterscheidet, aber keine Haushälterin haben, die Ihr
-            Apartment zwischen den Reservierungen gründlich reinigt, sind Sie
-            bei Profireiniger an der richtigen Stelle, um Ihnen den Ärger zu
-            nehmen Bewirtung.
+            Ganz gleich, ob Hotelwäsche, Leihwäsche oder Mietwäsche, wir
+            decken Ihren gesamten Bedarf an Mietwäsche, und Sie sparen
+            gleichzeitig Zeit und Geld.
           </p>
           <p>
-            Unsere Fachleute hier bei Profireiniger sind bereit, Ihnen
-            erstklassige Reinigungsdienste anzubieten und sicherzustellen, dass
-            Ihr Inserat immer gastbereit ist! Unsere Priorität ist es, die
-            besten Reinigungsdienste zu bieten und sicherzustellen, dass Sie von
-            Ihren Gästen die gewünschte 5-Sterne-Bewertung erhalten.
+            <button type="button" class="w-100 btn btn-lg btn-primary">
+              Jetzt Angebot einholen:<br />
+              Tel.:
+              <a href="tel:+436766727472" class="link-light">+43 676 672 74 72</a>&nbsp;&nbsp; Email:
+              <a class="link-light" href="mailto:office@profireiniger.at">office@profireiniger.at</a>
+            </button>
           </p>
-        </div>
-        <div class="col-md-6">
-          <img
-            src="images/schlafzimmer-gepflegt.jpg"
-            alt="Eine blitzblank saubere Wohnung durch den Service von Profireiniger"
-            class="img-fluid rounded"
-          />
+          <p class="text-center">
+            <a href="#kontakt" class="w-100 btn btn-lg btn-primary">Zum Kontaktformular</a>
+          </p>
         </div>
       </div>
     </div>
 
-    <div class="row py-5 my-5 bg-success text-white" id="kontakt">
-      <div class="container">
-        <div class="row">
-          <div class="col-10 offset-1 text-center lead">
-            <p>
-              <img
-                src="images/title-wir-sind-ihre-profireiniger.png"
-                class="img-fluid"
-                alt="Wir sind Ihre Profireiniger"
-              />
-            </p>
-            <p>
-              <a
-                href="https://profireiniger.at"
-                class="text-decoration-none"
-                target="_blank"
-              >
-                <img
-                  src="images/profireiniger-full-logo-white.svg"
-                  alt="Die Profireiniger - Estera GmbH"
-                  width="200px"
-                />
-              </a>
-              <br />
-              Estera GmbH - Die Profireiniger<br />
-              Website:
-              <a
-                href="https://profireiniger.at"
-                target="_blank"
-                class="link-light"
-                >profireiniger.at</a
-              >
-            </p>
-            <h3 class="text-center mt-5">Schicken Sie uns eine Nachricht</h3>
-            <div class="row">
-              <div class="col-md-6 offset-md-3">
-                <form
-                  method="POST"
-                  name="contactform"
-                  action="contact-form-handler.php"
-                  class="mb-5"
-                >
-                  <div class="mb-3">
-                    <label for="name" class="form-label">Ihr Name:</label>
-                    <input type="text" name="name" class="form-control" />
-                  </div>
-                  <div class="mb-3">
-                    <label for="email" class="form-label"
-                      >Ihre Email-Adresse:</label
-                    >
-                    <input type="text" name="email" class="form-control" />
-                  </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#ProfireinigerCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#ProfireinigerCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
-                  <div class="mb-3">
-                    <label for="message" class="form-label">Nachricht:</label>
-                    <br />
-                    <textarea name="message" class="form-control"></textarea>
-                  </div>
-                  <input
-                    type="submit"
-                    value="Nachricht senden"
-                    class="btn btn-outline-light btn-lg"
-                  />
-                </form>
-              </div>
-            </div>
+  <div class="container px-4 py-2 text-center d-sm-block d-md-none">
+    <img class="img-fluid" src="images/apartmentreinigung-wien.png" alt="Profireiniger Estera GmbH" />
+    <h1 class="display-5 text-primary">
+      Wir reinigen Ihre airBnB-, Kurz&shy;zeit&shy;miete- & Booking-Wohnung
+    </h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">
+        Wir von <strong>Profireiniger Estera GmbH</strong> sind spezialisiert
+        auf die Reinigung Kurzzeitmietapartments. Wir richten uns ganz nach
+        Ihren Bedürfnissen.
+      </p>
+      <p>Unsere Erstberatung ist kostenlos.</p>
+      <img class="d-block mx-auto mb-4" src="images/profireiniger-full-logo.svg" alt="Profireiniger Estera GmbH"
+        width="300px" />
+      <p>
+        <button type="button" class="w-100 btn btn-lg btn-primary">
+          Jetzt Angebot einholen:<br />Tel.:
+          <a href="tel:+436766727472" class="link-light">+43 676 672 74 72</a><br />
+          Email:
+          <a class="link-light" href="mailto:office@profireiniger.at">office@profireiniger.at</a>
+        </button>
+      </p>
+      <p class="text-center">
+        <a href="#kontakt" class="w-100 btn btn-lg btn-primary">Zum Kontaktformular</a>
+      </p>
+    </div>
+  </div>
 
-            <script language="JavaScript">
-              // Code for validating the form
-              // Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
-              // for details
-              var frmvalidator = new Validator("contactform");
-              frmvalidator.addValidation(
-                "name",
-                "req",
-                "Bitte geben Sie Ihren Namen ein."
-              );
-              frmvalidator.addValidation(
-                "email",
-                "req",
-                "Bitte geben Sie Ihre Email-Adresse ein."
-              );
-              frmvalidator.addValidation(
-                "email",
-                "email",
-                "Bitte geben Sie eine gültige Email-Adresse ein."
-              );
-            </script>
-          </div>
-        </div>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="images/loft-wohnung-sauber.jpg"
+          alt="Für eine saubere Mietwohnung: Ihr Partner für Apartmentreinigung in Wien" class="img-fluid rounded" />
+      </div>
+      <div class="col-md-6">
+        <img src="images/title-professionelle-reinigung.png" alt="Ihre professionelle Reinigung"
+          class="img-fluid mt-2" />
+        <p>
+          Nachdem manche Online-Vermietdienste eine 24-Stunden-Leerstelle
+          zwischen den Buchungen verlangen, wird für Kunden sichtbar, dass
+          eine saubere Immobilie ein wichtiger Faktor ist.
+        </p>
+        <p>
+          Stellen Sie sicher, dass Sie Ihr Bestes geben, um diese
+          5-Sterne-Bewertungen mit einem zeitnahen professionellen
+          Reinigungsservice in Wien zu genießen. Entscheiden Sie sich für das
+          zuverlässige Team von <strong>Profireiniger Estera GmbH</strong>,
+          das dafür sorgt, dass alle Oberflächen aufgeräumt und sauber sind,
+          um eine erfolgreiche Vermietung zu gewährleisten.
+        </p>
+        <p>
+          Buchen Sie unsere Apartment-Reinigung in Wien und genießen Sie tolle
+          Bewertungen und ein profitables Vermietungsgeschäft. Unsere
+          Erstberatung ist kostenlos.
+        </p>
+        <p class="text-center">
+          <a href="#kontakt" class="w-100 btn btn-lg btn-primary">Zum Kontaktformular</a>
+        </p>
       </div>
     </div>
+    <div class="row mt-5">
+      <div class="col-md-6">
+        <img src="images/title-loesung-fuer-sie.png" alt="Unsere Lösung für Sie" class="img-fluid" />
+        <p>
+          Bei weitem das Schwierigste daran, ein Gastgeber zu sein, ist es,
+          für Sauberkeit zu sorgen. Wir wissen, dass viele Menschen Airbnb,
+          Booking und Kurzzeitmiete nur ungern ausprobieren, weil sie denken,
+          dass sie in einem Zimmer einer anderen Person übernachten werden,
+          das möglicherweise nicht so sauber ist wie ein Hotelzimmer.
+        </p>
+        <img src="images/title-fuenf-sterne-bewertung.png" alt="Für Ihre fünf-Sterne Bewertung" class="img-fluid" />
+        <p>
+          Wenn Sie Ihren Gästen ein Erlebnis bieten möchten, das sich von
+          einem Hotel unterscheidet, aber keine Haushälterin haben, die Ihr
+          Apartment zwischen den Reservierungen gründlich reinigt, sind Sie
+          bei Profireiniger an der richtigen Stelle, um Ihnen den Ärger zu
+          nehmen Bewirtung.
+        </p>
+        <p>
+          Unsere Fachleute hier bei Profireiniger sind bereit, Ihnen
+          erstklassige Reinigungsdienste anzubieten und sicherzustellen, dass
+          Ihr Inserat immer gastbereit ist! Unsere Priorität ist es, die
+          besten Reinigungsdienste zu bieten und sicherzustellen, dass Sie von
+          Ihren Gästen die gewünschte 5-Sterne-Bewertung erhalten.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <img src="images/schlafzimmer-gepflegt.jpg"
+          alt="Eine blitzblank saubere Wohnung durch den Service von Profireiniger" class="img-fluid rounded" />
+      </div>
+    </div>
+  </div>
 
-    <div class="container" id="dienstleistungen">
+  <div class="row py-5 my-5 bg-success text-white" id="kontakt">
+    <div class="container">
       <div class="row">
-        <div class="col-12 text-center mt-5">
-          <img
-            src="images/title-reinigungsdiensleistungen.png"
-            alt="Unsere Reinigungs-Packages"
-            class="img-fluid mt-5"
-          />
-          <p class="lead mb-4">
-            Unsere Apartmentreinigung beinhaltet
-            <strong
-              >Küchenreinigung, Badreinigung, Schlafzimmerreinigung</strong
-            >
-            und die <strong>Reinigung der Gemeinschaftsräume.</strong>
+        <div class="col-10 offset-1 text-center lead">
+          <p>
+            <img src="images/title-wir-sind-ihre-profireiniger.png" class="img-fluid"
+              alt="Wir sind Ihre Profireiniger" />
           </p>
-        </div>
-      </div>
-      <div class="row row-cols-1 row-cols-md-2 mt-2 mb-5 text-center">
-        <div class="col">
-          <div class="card mb-4 rounded-3 shadow-sm">
-            <div class="card-header py-3">
-              <h4 class="my-0 fw-normal">Badezimmerreinigung</h4>
-            </div>
-            <div class="card-body">
-              <img
-                src="images/sauberes-badezimmer.jpg"
-                alt="Eine blitzblank saubere Wohnung durch den Service von Profireiniger"
-                class="img-fluid rounded"
-              />
-              <ul class="list-unstyled mt-3 mb-4">
-                <li>&raquo; Waschbecken reinigen</li>
-                <li>&raquo; Edelstahl polieren</li>
-                <li>
-                  &raquo; Stauben/wischen Sie alle erreichbaren Oberflächen ab
-                </li>
-                <li>&raquo; Unter Möbelreinigung</li>
-                <li>&raquo; Bodenreinigung</li>
-                <li>&raquo; Reinigung von Türen und Griffen</li>
-                <li>&raquo; Lichtschalter reinigen</li>
-                <li>&raquo; Leere Müllcontainer</li>
-                <li>&raquo; Toiletten- und Toilettendeckelreinigung</li>
-                <li>&raquo; Duschen und Badreinigung</li>
-                <li>&raquo; Glasoberflächen reinigen</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card mb-4 rounded-3 shadow-sm">
-            <div class="card-header py-3">
-              <h4 class="my-0 fw-normal">Küchenreinigung</h4>
-            </div>
-            <div class="card-body">
-              <img
-                src="images/saubere-kueche.jpg"
-                alt="So sauber könnte dir Küche in Ihrem Apartment sein"
-                class="img-fluid rounded"
-              />
-              <ul class="list-unstyled mt-3 mb-4">
-                <li>&raquo; Geschirrspülen</li>
-                <li>&raquo; Mikrowellenreinigung</li>
-                <li>&raquo; Ofenreinigung</li>
-                <li>&raquo; Reinigung von Küchenmöbeln</li>
-                <li>&raquo; Alle zugänglichen Oberflächen abstauben</li>
-                <li>&raquo; Fußböden staubsaugen</li>
-                <li>&raquo; Müll beseitigen</li>
-                <li>&raquo; Glasoberflächen abwischen</li>
-                <li>&raquo; Reinigung von Türen und Griffen</li>
-                <li>&raquo; Unter den Möbeln saugen und reinigen</li>
-                <li>&raquo; Lichtschalter reinigen</li>
-              </ul>
+          <p>
+            <a href="https://profireiniger.at" class="text-decoration-none" target="_blank">
+              <img src="images/profireiniger-full-logo-white.svg" alt="Die Profireiniger - Estera GmbH" width="200px" />
+            </a>
+            <br />
+            Estera GmbH - Die Profireiniger<br />
+            Website:
+            <a href="https://profireiniger.at" target="_blank" class="link-light">profireiniger.at</a>
+          </p>
+          <h3 class="text-center mt-5">Schicken Sie uns eine Nachricht</h3>
+          <div class="row">
+            <div class="col-md-6 offset-md-3">
+              <form method="POST" name="contactform" action="contact-form-handler.php" class="mb-5">
+                <div class="mb-3">
+                  <label for="name" class="form-label">Ihr Name:</label>
+                  <input type="text" name="name" class="form-control" />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Ihre Email-Adresse:</label>
+                  <input type="text" name="email" class="form-control" />
+                </div>
+
+                <div class="mb-3">
+                  <label for="message" class="form-label">Nachricht:</label>
+                  <br />
+                  <textarea name="message" class="form-control"></textarea>
+                </div>
+                <input type="submit" value="Nachricht senden" class="btn btn-outline-light btn-lg" />
+              </form>
             </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="card mb-4 rounded-3 shadow-sm">
-            <div class="card-header py-3">
-              <h4 class="my-0 fw-normal">
-                Reinigung des Empfangs- und Eingangsbereichs
-              </h4>
-            </div>
-            <div class="card-body">
-              <img
-                src="images/eingangsbereich.jpg"
-                alt="Ein Eingangsbereich so sauber, hell und hygienisch"
-                class="img-fluid rounded"
-              />
-              <ul class="list-unstyled mt-3 mb-4">
-                <li>&raquo; Alle zugänglichen Oberflächen wischen</li>
-                <li>&raquo; Reinigung des Bodeneingangs</li>
-                <li>&raquo; Reinigung von Türen und Fenstern</li>
-                <li>&raquo; Lichtschalter reinigen</li>
-                <li>&raquo; Bodenreinigung & Teppichsaugen</li>
-                <li>&raquo; Teppiche & Vorleger abklopfen und saugen</li>
-                <li>&raquo; Müllabfuhr</li>
-                <li>&raquo; Treppen und Geländer reinigen</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card mb-4 rounded-3 shadow-sm">
-            <div class="card-header py-3">
-              <h4 class="my-0 fw-normal">Reinigung der Schlafzimmer</h4>
-            </div>
-            <div class="card-body">
-              <img
-                src="images/aufgeraeumtes-wunderschoenes-schlafzimmer.jpg"
-                alt="Ein wunderschön aufgeräumtes Schlafzimmer"
-                class="img-fluid rounded"
-              />
-              <ul class="list-unstyled mt-3 mb-4">
-                <li>&raquo; Betten machen und Bettwäsche wechseln</li>
-                <li>&raquo; Reinigung von Holzmöbeln</li>
-                <li>&raquo; Beistell- und Nachttische aufräumen</li>
-                <li>&raquo; Stauräume inspizieren und reinigen</li>
-                <li>&raquo; Reinigung von Türrahmen und Fenstern</li>
-                <li>&raquo; Alle zugänglichen Oberflächen abtauben</li>
-                <li>&raquo; Lichtschalter reinigen</li>
-                <li>&raquo; Reinigung von Türen und Griffen</li>
-                <li>&raquo; Boden- und Teppichreinigung</li>
-                <li>&raquo; Fußböden staubsaugen</li>
-                <li>&raquo; Müll beseitigen</li>
-                <li>&raquo; Lüften für ein richtiges Wohlgefühl</li>
-              </ul>
-            </div>
-          </div>
+
+          <script language="JavaScript">
+            // Code for validating the form
+            // Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+            // for details
+            var frmvalidator = new Validator("contactform");
+            frmvalidator.addValidation(
+              "name",
+              "req",
+              "Bitte geben Sie Ihren Namen ein."
+            );
+            frmvalidator.addValidation(
+              "email",
+              "req",
+              "Bitte geben Sie Ihre Email-Adresse ein."
+            );
+            frmvalidator.addValidation(
+              "email",
+              "email",
+              "Bitte geben Sie eine gültige Email-Adresse ein."
+            );
+          </script>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="container-fluid bg-primary text-light p-4 mt-4">
-      <div class="container">
-        <div class="row my-5">
-          <img
-            src="images/title-unser-service-ihr-vorteil.png"
-            alt="Unser Service - Ihr Vorteil"
-            class="img-fluid"
-          />
-        </div>
-        <div class="row my-5">
-          <div class="col-md-6 offset-md-1 p-4">
-            <h3>Apartmentreinigung durch Profireiniger</h3>
-            <p class="lead mb-4">
-              Buchen Sie uns für die Reingigung Ihres Apartments, das Sie über
-              <strong
-                ><a href="http://airbnb.at" target="_blank" class="link-light"
-                  >AirBnB</a
-                ></strong
-              >,
-              <strong
-                ><a href="http://booking.com" target="_blank" class="link-light"
-                  >Booking</a
-                ></strong
-              >,
-              <strong
-                ><a
-                  href="http://kurzzeitmiete.at"
-                  target="_blank"
-                  class="link-light"
-                  >Kurzzeitmiete</a
-                ></strong
-              >
-              oder
-              <strong
-                ><a
-                  href="http://kurzzeitwohnen.com/"
-                  target="_blank"
-                  class="link-light"
-                  >Kurzzeitwohnen</a
-                ></strong
-              >
-              vermieten. Bei <strong>Profireiniger Estera GmbH</strong> haben
-              Sie jetzt den richtigen Partner gefunden. Wir bringen Glanz und
-              Reinheit in den Alltag Ihrer Gäste!
-            </p>
-
-            <p class="lead mb-4">
-              Wir wissen, dass jeder Gastgeber einzigartig ist und
-              unterschiedliche Erwartungen und Bedürfnisse hat. Aus diesem Grund
-              erstellt Profireiniger individuelle Reinigungsangebote für jeden
-              Host.
-            </p>
-            <p>
-              <a
-                href="tel:+436766727472"
-                class="w-100 btn btn-lg btn-outline-light"
-              >
-                Tel.:+43 676 672 74 72</a
-              >
-              <br /><br />
-              <a
-                class="w-100 btn btn-lg btn-outline-light"
-                href="mailto:office@profireiniger.at"
-                >Email: office@profireiniger.at</a
-              >
-              <br /><br />
-              <a href="#kontakt" class="w-100 btn btn-lg btn-outline-light"
-                >Zum Kontaktformular</a
-              >
-            </p>
+  <div class="container" id="dienstleistungen">
+    <div class="row">
+      <div class="col-12 text-center mt-5">
+        <img src="images/title-reinigungsdiensleistungen.png" alt="Unsere Reinigungs-Packages" class="img-fluid mt-5" />
+        <p class="lead mb-4">
+          Unsere Apartmentreinigung beinhaltet
+          <strong>Küchenreinigung, Badreinigung, Schlafzimmerreinigung</strong>
+          und die <strong>Reinigung der Gemeinschaftsräume.</strong>
+        </p>
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-2 mt-2 mb-5 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Badezimmerreinigung</h4>
           </div>
-          <div class="col-md-4 p-4">
-            <h3>Ihre Vorteile durch unsere Diensleistung</h3>
-            <ul class="lead mb-4">
-              <li>Maßgeschneiderte Reinigungsdienste</li>
-              <li>Leistbare Preise</li>
-              <li>Effizientes Personal, das leicht erreichbar ist</li>
-              <li>Flexible Reinigungstermine</li>
-              <li>Einfache telefonische Buchung</li>
-              <li>Kundenzufriedenheit garantiert</li>
-              <li>Erstklassiger Kundenservice</li>
-              <li>Versicherung für Hausrat</li>
+          <div class="card-body">
+            <img src="images/sauberes-badezimmer.jpg"
+              alt="Eine blitzblank saubere Wohnung durch den Service von Profireiniger" class="img-fluid rounded" />
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>&raquo; Waschbecken reinigen</li>
+              <li>&raquo; Edelstahl polieren</li>
+              <li>
+                &raquo; Stauben/wischen Sie alle erreichbaren Oberflächen ab
+              </li>
+              <li>&raquo; Unter Möbelreinigung</li>
+              <li>&raquo; Bodenreinigung</li>
+              <li>&raquo; Reinigung von Türen und Griffen</li>
+              <li>&raquo; Lichtschalter reinigen</li>
+              <li>&raquo; Leere Müllcontainer</li>
+              <li>&raquo; Toiletten- und Toilettendeckelreinigung</li>
+              <li>&raquo; Duschen und Badreinigung</li>
+              <li>&raquo; Glasoberflächen reinigen</li>
             </ul>
-            <p class="lead mb-4">
-              Melden Sie sich bei uns und wir werden uns Ihrer Wünsche annehmen.
-              Es gibt immer eine Lösung für Ihre Bedürfnisse.
-            </p>
           </div>
-          <div class="col-md-6">
-            <div class="alert alert-primary lead mb-4">
-              <h2 class="text-center">Bettwäsche-Service</h2>
-              <p>
-                Wir stellen gerne bei Bedarf auch
-                <strong
-                  >frische Bettwäsche, Handtücher und sonstige Accessoires von
-                  uns</strong
-                >
-                bereit.
-              </p>
-              <ul>
-                <li>Hautfreundliche Stoffe</li>
-                <li>Robuste Überzüge</li>
-                <li>Für Sommer und Winter geeignet</li>
-                <li>Bettwäsche für Allergiker auf Anfrage</li>
-              </ul>
-              <p>
-                Wir verfügen über unsere eigene Wäscherei und nehmen auf Wunsch
-                die Bettwäsche bei der Reinigung mit.
-              </p>
-            </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Küchenreinigung</h4>
           </div>
-          <div class="col-md-6">
-            <img
-              src="images/saubere-durfige-bettwaesche.jpg"
-              alt="Saubere, duftige Bettwäsche für Ihre Gäste"
-              class="img-fluid rounded"
-            />
+          <div class="card-body">
+            <img src="images/saubere-kueche.jpg" alt="So sauber könnte dir Küche in Ihrem Apartment sein"
+              class="img-fluid rounded" />
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>&raquo; Geschirrspülen</li>
+              <li>&raquo; Mikrowellenreinigung</li>
+              <li>&raquo; Ofenreinigung</li>
+              <li>&raquo; Reinigung von Küchenmöbeln</li>
+              <li>&raquo; Alle zugänglichen Oberflächen abstauben</li>
+              <li>&raquo; Fußböden staubsaugen</li>
+              <li>&raquo; Müll beseitigen</li>
+              <li>&raquo; Glasoberflächen abwischen</li>
+              <li>&raquo; Reinigung von Türen und Griffen</li>
+              <li>&raquo; Unter den Möbeln saugen und reinigen</li>
+              <li>&raquo; Lichtschalter reinigen</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">
+              Reinigung des Empfangs- und Eingangsbereichs
+            </h4>
+          </div>
+          <div class="card-body">
+            <img src="images/eingangsbereich.jpg" alt="Ein Eingangsbereich so sauber, hell und hygienisch"
+              class="img-fluid rounded" />
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>&raquo; Alle zugänglichen Oberflächen wischen</li>
+              <li>&raquo; Reinigung des Bodeneingangs</li>
+              <li>&raquo; Reinigung von Türen und Fenstern</li>
+              <li>&raquo; Lichtschalter reinigen</li>
+              <li>&raquo; Bodenreinigung & Teppichsaugen</li>
+              <li>&raquo; Teppiche & Vorleger abklopfen und saugen</li>
+              <li>&raquo; Müllabfuhr</li>
+              <li>&raquo; Treppen und Geländer reinigen</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Reinigung der Schlafzimmer</h4>
+          </div>
+          <div class="card-body">
+            <img src="images/aufgeraeumtes-wunderschoenes-schlafzimmer.jpg"
+              alt="Ein wunderschön aufgeräumtes Schlafzimmer" class="img-fluid rounded" />
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>&raquo; Betten machen und Bettwäsche wechseln</li>
+              <li>&raquo; Reinigung von Holzmöbeln</li>
+              <li>&raquo; Beistell- und Nachttische aufräumen</li>
+              <li>&raquo; Stauräume inspizieren und reinigen</li>
+              <li>&raquo; Reinigung von Türrahmen und Fenstern</li>
+              <li>&raquo; Alle zugänglichen Oberflächen abtauben</li>
+              <li>&raquo; Lichtschalter reinigen</li>
+              <li>&raquo; Reinigung von Türen und Griffen</li>
+              <li>&raquo; Boden- und Teppichreinigung</li>
+              <li>&raquo; Fußböden staubsaugen</li>
+              <li>&raquo; Müll beseitigen</li>
+              <li>&raquo; Lüften für ein richtiges Wohlgefühl</li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <div
-      class="container-fluid bg-light p-4 mb-4 border-bottom"
-      id="mietwaesche"
-    >
-      <div class="container">
-        <div class="row">
-          <div class="col-10 offset-1 mt-5">
-            <img
-              src="images/title-mietwaesche-fuer-ihr-apartment.png"
-              alt="Mietwäsche für Ihr Apartment"
-              class="img-fluid"
-            />
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 lead">
-            <p>
-              Ganz gleich, ob <strong>Hotelwäsche,</strong>
-              <strong>Leihwäsche</strong> oder <strong>Mietwäsche,</strong> wir
-              decken Ihren gesamten Bedarf an Mietwäsche, und Sie sparen
-              gleichzeitig Zeit und Geld. Wir bieten Ihnen Bettwäsche,
-              Handtücher, Bettdecken, Kissen, und Decken.
-            </p>
-            <p>
-              Wir bieten nur markterprobte, langlebige und hochwertige
-              Bettwäsche an, die Ihre Gäste lieben werden.
-            </p>
-            <p>
-              <button type="button" class="w-100 btn btn-lg btn-primary">
-                Tel.:
-                <a href="tel:+436766727472" class="link-light"
-                  >+43 676 672 74 72</a
-                ><br />
-                Email:
-                <a class="link-light" href="mailto:office@profireiniger.at"
-                  >office@profireiniger.at</a
-                >
-              </button>
-            </p>
-            <p class="text-center">
-              <a href="#kontakt" class="w-100 btn btn-lg btn-primary"
-                >Zum Kontaktformular</a
-              >
-            </p>
-          </div>
-          <div class="col-md-6">
-            <img
-              src="images/bettwaesche.jpg"
-              alt="Frische Bettwäsche zum Wohlfühlen"
-              class="img-fluid rounded"
-            />
-          </div>
-        </div>
+  <div class="container-fluid bg-primary text-light p-4 mt-4">
+    <div class="container">
+      <div class="row my-5">
+        <img src="images/title-unser-service-ihr-vorteil.png" alt="Unser Service - Ihr Vorteil" class="img-fluid" />
       </div>
-    </div>
+      <div class="row my-5">
+        <div class="col-md-6 offset-md-1 p-4">
+          <h3>Apartmentreinigung durch Profireiniger</h3>
+          <p class="lead mb-4">
+            Buchen Sie uns für die Reingigung Ihres Apartments, das Sie über
+            <strong><a href="http://airbnb.at" target="_blank" class="link-light">AirBnB</a></strong>,
+            <strong><a href="http://booking.com" target="_blank" class="link-light">Booking</a></strong>,
+            <strong><a href="http://kurzzeitmiete.at" target="_blank" class="link-light">Kurzzeitmiete</a></strong>
+            oder
+            <strong><a href="http://kurzzeitwohnen.com/" target="_blank" class="link-light">Kurzzeitwohnen</a></strong>
+            vermieten. Bei <strong>Profireiniger Estera GmbH</strong> haben
+            Sie jetzt den richtigen Partner gefunden. Wir bringen Glanz und
+            Reinheit in den Alltag Ihrer Gäste!
+          </p>
 
-    <div class="container px-4 py-5 my-5 text-center">
-      <img
-        src="images/title-vertrauen-durch-gruendliche-sauberkeit.png"
-        alt="Vertrauen durch gründliche Sauberkeit"
-        class="img-fluid"
-      />
-      <div class="col-lg-6 mx-auto">
-        <p class="lead mb-4">
-          Sicherheit, Vertrauen und Gründlichkeit sind die Dinge, die uns
-          ausmachen!
-        </p>
-        <p class="lead mb-4">
-          Wenn Sie einen zuverlässigen und erschwinglichen Reinigungsservice
-          benötigen, um Ihr Apartment vorzubereiten und einladend zu gestalten,
-          dann ist Profireiniger das Unternehmen, nach dem Sie gesucht haben.
-        </p>
-        <p class="lead mb-4">
-          Suchen Sie auch nach einer Reinigungsfirma in Wien, die regelmäßige
-          Haushaltsreinigungsdienste anbietet? Dann zögern Sie nicht, unsere
-          professionellen Reinigungskräfte auch für Ihre Haushaltsreinigung zu
-          buchen.
-        </p>
-        <p class="lead mb-4">
-          Zögern Sie nicht und buchen Sie jetzt unseren professionellen
-          Reinigungsservice zwischen den Gastaufenthalten!
-        </p>
-        <img
-          class="d-block mx-auto mb-4"
-          src="images/profireiniger-full-logo.svg"
-          alt="Profireiniger Estera GmbH"
-          width="300px"
-        />
-        <p>
-          <button type="button" class="w-100 btn btn-lg btn-primary">
-            Tel.:
-            <a href="tel:+436766727472" class="link-light">+43 676 672 74 72</a
-            ><br />
-            Email:
-            <a class="link-light" href="mailto:office@profireiniger.at"
-              >office@profireiniger.at</a
-            >
-          </button>
-        </p>
-        <p class="text-center">
-          <a href="#kontakt" class="w-100 btn btn-lg btn-primary"
-            >Zum Kontaktformular</a
-          >
-        </p>
-      </div>
-    </div>
-
-    <div class="container my-5" id="impressum">
-      <div class="row">
-        <div class="col-md-4 p-4 text-center">
-          <img
-            src="images/profireiniger-full-logo.svg"
-            alt="Die Profireiniger Estera GmbH"
-            width="180px"
-          />
+          <p class="lead mb-4">
+            Wir wissen, dass jeder Gastgeber einzigartig ist und
+            unterschiedliche Erwartungen und Bedürfnisse hat. Aus diesem Grund
+            erstellt Profireiniger individuelle Reinigungsangebote für jeden
+            Host.
+          </p>
           <p>
-            <strong>Estera GmbH - Die Profireiniger</strong><br />
-            <strong>Telefon:</strong>
-            <a href="tel:+436766727472">+43 676 672 74 72</a><br />
-            <strong>Email:</strong>
-            <a href="mailto:office@profireiniger.at">office@profireiniger.at</a
-            ><br />
-            <strong>Büroadresse:</strong> Frankgasse 6/2a, 1090 Wien<br />
+            <a href="tel:+436766727472" class="w-100 btn btn-lg btn-outline-light">
+              Tel.:+43 676 672 74 72</a>
+            <br /><br />
+            <a class="w-100 btn btn-lg btn-outline-light" href="mailto:office@profireiniger.at">Email:
+              office@profireiniger.at</a>
+            <br /><br />
+            <a href="#kontakt" class="w-100 btn btn-lg btn-outline-light">Zum Kontaktformular</a>
+          </p>
+        </div>
+        <div class="col-md-4 p-4">
+          <h3>Ihre Vorteile durch unsere Diensleistung</h3>
+          <ul class="lead mb-4">
+            <li>Maßgeschneiderte Reinigungsdienste</li>
+            <li>Leistbare Preise</li>
+            <li>Effizientes Personal, das leicht erreichbar ist</li>
+            <li>Flexible Reinigungstermine</li>
+            <li>Einfache telefonische Buchung</li>
+            <li>Kundenzufriedenheit garantiert</li>
+            <li>Erstklassiger Kundenservice</li>
+            <li>Versicherung für Hausrat</li>
+          </ul>
+          <p class="lead mb-4">
+            Melden Sie sich bei uns und wir werden uns Ihrer Wünsche annehmen.
+            Es gibt immer eine Lösung für Ihre Bedürfnisse.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <div class="alert alert-primary lead mb-4">
+            <h2 class="text-center">Bettwäsche-Service</h2>
+            <p>
+              Wir stellen gerne bei Bedarf auch
+              <strong>frische Bettwäsche, Handtücher und sonstige Accessoires von
+                uns</strong>
+              bereit.
+            </p>
+            <ul>
+              <li>Hautfreundliche Stoffe</li>
+              <li>Robuste Überzüge</li>
+              <li>Für Sommer und Winter geeignet</li>
+              <li>Bettwäsche für Allergiker auf Anfrage</li>
+            </ul>
+            <p>
+              Wir verfügen über unsere eigene Wäscherei und nehmen auf Wunsch
+              die Bettwäsche bei der Reinigung mit.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="images/saubere-durfige-bettwaesche.jpg" alt="Saubere, duftige Bettwäsche für Ihre Gäste"
+            class="img-fluid rounded" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid bg-light p-4 mb-4 border-bottom" id="mietwaesche">
+    <div class="container">
+      <div class="row">
+        <div class="col-10 offset-1 mt-5">
+          <img src="images/title-mietwaesche-fuer-ihr-apartment.png" alt="Mietwäsche für Ihr Apartment"
+            class="img-fluid" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 lead">
+          <p>
+            Ganz gleich, ob <strong>Hotelwäsche,</strong>
+            <strong>Leihwäsche</strong> oder <strong>Mietwäsche,</strong> wir
+            decken Ihren gesamten Bedarf an Mietwäsche, und Sie sparen
+            gleichzeitig Zeit und Geld. Wir bieten Ihnen Bettwäsche,
+            Handtücher, Bettdecken, Kissen, und Decken.
+          </p>
+          <p>
+            Wir bieten nur markterprobte, langlebige und hochwertige
+            Bettwäsche an, die Ihre Gäste lieben werden.
+          </p>
+          <p>
+            <button type="button" class="w-100 btn btn-lg btn-primary">
+              Tel.:
+              <a href="tel:+436766727472" class="link-light">+43 676 672 74 72</a><br />
+              Email:
+              <a class="link-light" href="mailto:office@profireiniger.at">office@profireiniger.at</a>
+            </button>
           </p>
           <p class="text-center">
-            <a href="#kontakt" class="w-100 btn btn-lg btn-primary"
-              >Zum Kontaktformular</a
-            >
+            <a href="#kontakt" class="w-100 btn btn-lg btn-primary">Zum Kontaktformular</a>
           </p>
         </div>
-        <div class="col-md-8 p-4">
-          <h2>Impressum</h2>
-          <p>
-            <strong>Vollständiger Firmenname:</strong> Estera GmbH<br />
-            <strong>Firmenbuchnummer:</strong> FN 578149 w<br />
-            <strong>UID:</strong> ATU 78536826<br />
-            <strong>Ort der Gewerbeberechtigung:</strong> Heiligenstädter Straße
-            111/3, 1190 Wien<br />
-            <strong>Rechtsform:</strong> GmbH<br />
-            <strong>Firmenbuchgericht:</strong> Handelsgericht Wien<br />
-            <strong>Geschäftsführerin:</strong> Frau Estera-Sinziana Gordea<br />
-            <strong>Gewerbeordnung:</strong> Anwendbare gewerbe- oder
-            berufsrechtliche Vorschriften in der Gewerbeordnung 1994, abrufbar
-            unter <a href="http://www.ris.bka.gv.at">www.ris.bka.gv.at</a><br />
-            <strong>Telefon: </strong>+43 676 672 74 72<br />
-            <strong>Allgemeine Geschäftsbedingungen:</strong>
-            <a href="agb.html" target="_blank">profireiniger.at/agb.html</a
-            ><br />
-            <strong>Bildmaterial:</strong>
-            <a href="https://unsplash.com" target="_blank">Unsplash</a>
-          </p>
+        <div class="col-md-6">
+          <img src="images/bettwaesche.jpg" alt="Frische Bettwäsche zum Wohlfühlen" class="img-fluid rounded" />
         </div>
       </div>
     </div>
+  </div>
 
-    <footer class="py-5 bg-success text-white">
-      <div class="container">
-        <p class="m-0 text-center">
-          <a
-            href="https://profireiniger.at"
-            class="text-decoration-none"
-            target="_blank"
-            ><img
-              src="images/profireiniger-full-logo-white.svg"
-              alt="Die Profireiniger - Estera GmbH"
-              width="200px"
-            />
-          </a>
+  <div class="container px-4 py-5 my-5 text-center">
+    <img src="images/title-vertrauen-durch-gruendliche-sauberkeit.png" alt="Vertrauen durch gründliche Sauberkeit"
+      class="img-fluid" />
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">
+        Sicherheit, Vertrauen und Gründlichkeit sind die Dinge, die uns
+        ausmachen!
+      </p>
+      <p class="lead mb-4">
+        Wenn Sie einen zuverlässigen und erschwinglichen Reinigungsservice
+        benötigen, um Ihr Apartment vorzubereiten und einladend zu gestalten,
+        dann ist Profireiniger das Unternehmen, nach dem Sie gesucht haben.
+      </p>
+      <p class="lead mb-4">
+        Suchen Sie auch nach einer Reinigungsfirma in Wien, die regelmäßige
+        Haushaltsreinigungsdienste anbietet? Dann zögern Sie nicht, unsere
+        professionellen Reinigungskräfte auch für Ihre Haushaltsreinigung zu
+        buchen.
+      </p>
+      <p class="lead mb-4">
+        Zögern Sie nicht und buchen Sie jetzt unseren professionellen
+        Reinigungsservice zwischen den Gastaufenthalten!
+      </p>
+      <img class="d-block mx-auto mb-4" src="images/profireiniger-full-logo.svg" alt="Profireiniger Estera GmbH"
+        width="300px" />
+      <p>
+        <button type="button" class="w-100 btn btn-lg btn-primary">
+          Tel.:
+          <a href="tel:+436766727472" class="link-light">+43 676 672 74 72</a><br />
+          Email:
+          <a class="link-light" href="mailto:office@profireiniger.at">office@profireiniger.at</a>
+        </button>
+      </p>
+      <p class="text-center">
+        <a href="#kontakt" class="w-100 btn btn-lg btn-primary">Zum Kontaktformular</a>
+      </p>
+    </div>
+  </div>
+
+  <div class="container my-5" id="impressum">
+    <div class="row">
+      <div class="col-md-4 p-4 text-center">
+        <img src="images/profireiniger-full-logo.svg" alt="Die Profireiniger Estera GmbH" width="180px" />
+        <p>
+          <strong>Estera GmbH - Die Profireiniger</strong><br />
+          <strong>Telefon:</strong>
+          <a href="tel:+436766727472">+43 676 672 74 72</a><br />
+          <strong>Email:</strong>
+          <a href="mailto:office@profireiniger.at">office@profireiniger.at</a><br />
+          <strong>Büroadresse:</strong> Frankgasse 6/2a, 1090 Wien<br />
         </p>
-        <p class="m-0 text-center">&copy; Estera GmbH - Die Profireiniger</p>
-        <p class="m-0 text-center">
-          Designed by
-          <a href="https://marincomics.com" class="link-light" target="_blank"
-            >MarinComics</a
-          >
+        <p class="text-center">
+          <a href="#kontakt" class="w-100 btn btn-lg btn-primary">Zum Kontaktformular</a>
         </p>
       </div>
-    </footer>
+      <div class="col-md-8 p-4">
+        <h2>Impressum</h2>
+        <p>
+          <strong>Vollständiger Firmenname:</strong> Estera GmbH<br />
+          <strong>Firmenbuchnummer:</strong> FN 578149 w<br />
+          <strong>UID:</strong> ATU 78536826<br />
+          <strong>Ort der Gewerbeberechtigung:</strong> Heiligenstädter Straße
+          111/3, 1190 Wien<br />
+          <strong>Rechtsform:</strong> GmbH<br />
+          <strong>Firmenbuchgericht:</strong> Handelsgericht Wien<br />
+          <strong>Geschäftsführerin:</strong> Frau Estera-Sinziana Gordea<br />
+          <strong>Gewerbeordnung:</strong> Anwendbare gewerbe- oder
+          berufsrechtliche Vorschriften in der Gewerbeordnung 1994, abrufbar
+          unter <a href="http://www.ris.bka.gv.at">www.ris.bka.gv.at</a><br />
+          <strong>Telefon: </strong>+43 676 672 74 72<br />
+          <strong>Allgemeine Geschäftsbedingungen:</strong>
+          <a href="agb.html" target="_blank">profireiniger.at/agb.html</a><br />
+          <strong>Bildmaterial:</strong>
+          <a href="https://unsplash.com" target="_blank">Unsplash</a>
+        </p>
+      </div>
+    </div>
+  </div>
 
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+  <footer class="py-5 bg-success text-white">
+    <div class="container">
+      <p class="m-0 text-center">
+        <a href="https://profireiniger.at" class="text-decoration-none" target="_blank"><img
+            src="images/profireiniger-full-logo-white.svg" alt="Die Profireiniger - Estera GmbH" width="200px" />
+        </a>
+      </p>
+      <p class="m-0 text-center">&copy; Estera GmbH - Die Profireiniger</p>
+      <p class="m-0 text-center">
+        Designed by
+        <a href="https://marincomics.com" class="link-light" target="_blank">MarinComics</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
 </html>
